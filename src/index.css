@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.todoimg{
+    background-image:url('../public/TODOimg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    background-color: rgba(255, 240, 196, 0.8);
+    padding:10px;
+    width:100%;
+    box-shadow:10px 5px 20px gray;
+}

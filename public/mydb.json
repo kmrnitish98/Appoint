@@ -1,0 +1,92 @@
+{
+  "User": [
+    {
+      "userId": 1,
+      "UserName": "Rohit@",
+      "password": "Rohit_123",
+      "email": "rohit@12gmail.com",
+      "id": "e7e8"
+    },
+    {
+      "userId": 2,
+      "UserName": "Mohit@",
+      "password": "Mohit_124",
+      "email": "mohit@12gmail.com",
+      "id": "ec08"
+    },
+    {
+      "id": "9e6b",
+      "username": "madan",
+      "password": "Madan@12",
+      "email": ""
+    },
+    {
+      "id": "3c30",
+      "username": "Malik",
+      "password": "malik_12",
+      "email": "malik@12gmail.com"
+    },
+    {
+      "id": "6891",
+      "username": "Madan",
+      "password": "madan_11",
+      "email": "madan10@gmail.com"
+    },
+    {
+      "id": "b622",
+      "username": "Aman",
+      "password": "aman_12",
+      "email": "a@gmail.com"
+    },
+    {
+      "id": "b597",
+      "username": "Neha",
+      "password": "Neha12@",
+      "email": "Neha@gmail.com"
+    }
+  ],
+  "Appointments": [
+    {
+      "id": "2",
+      "UserName": "Mohit@",
+      "title": "Meeting",
+      "date": "2025-08-18"
+    },
+    {
+      "id": "1fa7",
+      "title": "Evening-Meeting",
+      "date": "2025-08-15",
+      "UserName": "Malik"
+    },
+    {
+      "id": "433d",
+      "title": "Docter ",
+      "date": "2025-08-14",
+      "UserName": "Madan"
+    },
+    {
+      "id": "5850",
+      "title": "Birthday",
+      "date": "2025-08-15",
+      "UserName": "Aman"
+    },
+    {
+      "id": "1c7c",
+      "title": "Teacher Appointment",
+      "date": "2025-08-15",
+      "UserName": "Neha"
+    },
+    {
+      "id": "7a05",
+      "title": "BirthDay ",
+      "date": "2025-08-15",
+      "UserName": "Madan"
+    },
+    {
+      "id": "20df",
+      "title": "MEET EMPLOYEE",
+      "date": "2025-08-16",
+      "UserName": "Madan"
+    }
+  ]
+}
