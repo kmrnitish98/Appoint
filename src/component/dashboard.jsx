@@ -10,7 +10,7 @@ export function Dashboard(){
      
     useEffect(()=>{
         console.log(`UserName: ${cookies['username']}`);
-        axios.get('http://localhost:3000/Appointments')
+        axios.get('https://appoint-server.onrender.com/Appointments')
         .then(response=>{
             const filtered=response.data.filter(appointment=>appointment.UserName?.toLowerCase()===cookies['username']?.toLowerCase());
             console.log(filtered);

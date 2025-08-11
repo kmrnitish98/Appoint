@@ -15,7 +15,7 @@ export function Login(){
             password:''
         },
         onSubmit:(user)=>{
-            axios.get('http://localhost:3000/User')
+            axios.get('https://appoint-server.onrender.com/User')
             .then((response)=>{
                 const userData=response.data;
                 const userdetails= userData.find((u)=>u.username===user.username);

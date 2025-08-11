@@ -12,7 +12,7 @@ export function Register(){
             email:''
         },
         onSubmit:(user)=>{
-            axios.post('http://localhost:3000/User',user)
+            axios.post('https://appoint-server.onrender.com/User',user)
             .then((response)=>{
                     alert("User Registered Successfully");
                     console.log(response.data);

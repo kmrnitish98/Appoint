@@ -6,7 +6,7 @@ export function DeleteAppointment(){
     const navigate=useNavigate();
     const [appointment,setAppointment]=useState({id:0,title:'',date:'',UserName:''});
     useEffect(()=>{
-        axios.get(`http://localhost:3000/Appointments/${params.id}`)
+        axios.get(`https://appoint-server.onrender.com/Appointments/${params.id}`)
         .then(response=>{
             setAppointment(response.data);
         })
@@ -14,7 +14,7 @@ export function DeleteAppointment(){
     },[params.id]);
 
     function handleDelete(){
-        axios.delete(`http://localhost:3000/Appointments/${params.id}`)
+        axios.delete(`https://appoint-server.onrender.com/Appointments/${params.id}`)
         .then(()=>{
             alert('Appointment Deleted Successfully');
             navigate('/dashboard');

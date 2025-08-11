@@ -13,7 +13,7 @@ export function AddAppointment(){
             UserName:cookies['username']
         },
         onSubmit:appoit=>{
-            axios.post('http://localhost:3000/Appointments',appoit)
+            axios.post('https://appoint-server.onrender.com/Appointments',appoit)
             .then(()=>{
             alert('Appointment Added Successfully');
              navigate('/dashboard');

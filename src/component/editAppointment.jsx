@@ -16,7 +16,7 @@ export function EditAppointment(){
             UserName:appointment.UserName
         },
         onSubmit:Oppo=>{
-            axios.put(`http://localhost:3000/Appointments/${params.id}`,Oppo)
+            axios.put(`https://appoint-server.onrender.com/Appointments/${params.id}`,Oppo)
             .then(()=>{
                 alert('Appointment Updated Successfully');
                 navigate('/dashboard');
@@ -26,7 +26,7 @@ export function EditAppointment(){
     });
 
     useEffect(()=>{
-        axios.get(`http://localhost:3000/Appointments/${params.id}`)
+        axios.get(`https://appoint-server.onrender.com/Appointments/${params.id}`)
         .then(response=>{
             setAppointment(response.data)
         })
