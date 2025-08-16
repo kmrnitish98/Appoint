@@ -1,0 +1,12 @@
+.linkD{
+   display: flex;
+   gap:20px;
+}
+.linkD a{
+   text-decoration:none;
+   color:#1F2937 ;
+   font-weight: 500;
+}
+.linkD a:hover{
+   color: gray;
+}

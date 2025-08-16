@@ -23,7 +23,7 @@ export function Register(){
 
     })
     return(
-        <div className='container mt-2 p-4 d-flex justify-content-center align-items-center '>
+        <div className='container mt-2 p-3 d-flex justify-content-center align-items-center '>
             <div className="w-full sm:w-2/3 md:w-2/4 lg:w-1/3">
                 <form action="" onSubmit={Formik.handleSubmit} className="p-5 bg-amber-100 shadow-xl/40 rounded-4 ">
                     <div className='text-amber-600'><h2 className='bi bi-person-circle text-center'> Register</h2></div>

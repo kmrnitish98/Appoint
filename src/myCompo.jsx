@@ -5,15 +5,15 @@ import { DeleteAppointment } from "./component/deleteAppointment";
 import { EditAppointment } from "./component/editAppointment";
 import { Login } from "./component/login";
 import { Register } from "./component/register";
-
+import {Footer} from "./component/footer"
 export function ToDo(){
      return(
-          <div className="todoimg md:min-h-screen">
+          <div className="todoimg flex flex-col min-h-screen">
             <BrowserRouter>
-               <header className='text-center pt-3 md:pt-8'>   
+               <header className='text-center p-3 md:pt-8'>   
                   <Link to='/' className="fw-bold text-3xl  mt-5 text-decoration-none md:text-4xl"><span className='text-amber-800 ' >ToDo Application</span></Link>
                </header>
-               <section className="md:container md:mx-auto">
+               <section className=" flex-1 md:container md:mx-auto">
                   <Routes>
                     <Route path="/" element={<Login/>}/>
                     <Route path="/register" element={<Register/>}/>
@@ -23,6 +23,7 @@ export function ToDo(){
                     <Route path="/deleteAppointment/:id" element={<DeleteAppointment/>}/>
                   </Routes>
                </section>
+               <Footer/>
             </BrowserRouter>
          </div>
      )
